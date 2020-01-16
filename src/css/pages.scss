@@ -1,0 +1,57 @@
+.home-page {
+    &__portfolio {
+        padding: 40px 0;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.about-page {
+    &__team {
+        padding: 60px 0;
+    }    
+}
+
+.portfolio-page {
+    &__portfolio {
+        padding: 40px 0;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.portfolio-details-page {
+    &__portfolio-details-item {
+        padding: 40px 0;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.blog-page {
+    &__blog {
+        padding: 40px 0;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.single-post-page {
+    &__single-post {
+        padding-top: 40px;
+        position: relative;
+        z-index: 10;
+    }
+
+    &__comment-form {
+        padding-bottom: 40px;
+    }
+}
+
+.contact-page {
+    &__contact {
+        padding: 60px 0;
+        position: relative;
+        z-index: 10;
+    }
+}

@@ -1,0 +1,20 @@
+.load-more {  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    color: $color_white;
+    font-family: $font_robotoBo;
+    font-size: 13px;
+    line-height: 20.57px;
+    text-transform: uppercase;
+    letter-spacing: 0.76px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    background-color: #959595;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: $color_black;
+    }
+}

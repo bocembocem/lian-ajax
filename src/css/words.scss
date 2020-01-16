@@ -1,0 +1,104 @@
+.words {
+    &__title {
+        &--big-black {
+            font-family: $font_robotoLi;
+            color: $color_white;
+            font-size: 48px;
+            letter-spacing: 4.8px;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: $color_black;
+            padding: 11px 44px;
+            
+            @media (max-width: 574px) {  
+                font-size: 20px;
+                padding: 5px 11px;
+                letter-spacing: 2px;
+            }
+            
+            @media (max-width: 767px) { 
+                font-size: 24px;
+                padding: 5px 16px;
+            }
+            
+            @media (max-width: 991px) { 
+                font-size: 32px;
+                padding: 11px 22px;
+            }
+
+            @media (max-width: 1199px) { 
+                font-size: 40px;
+                padding: 11px 33px;
+            }
+        }
+
+        &--small-black {
+            font-family: $font_robotoBo;
+            color: $color_white;
+            font-size: 13px;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: $color_black;
+            padding: 9px 17px;
+
+            &:hover {
+                color: $color_white;
+            }
+        }
+
+        &--big {
+            color: $color_black;
+            font-family: $font_robotoLi;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 12px;
+            text-transform: uppercase;
+        }
+
+        &--middle {
+            font-family: $font_robotoLi;
+            color: $color_black;        
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 7.2px;
+
+            @media (max-width: 574px) {  
+                font-size: 14px;
+                letter-spacing: 3px;
+            }
+            
+            @media (max-width: 767px) { 
+                font-size: 15px;
+                letter-spacing: 4px;
+            }
+            
+            @media (max-width: 991px) { 
+                font-size: 16px;
+                letter-spacing: 5px;
+            }
+
+            @media (max-width: 1199px) { 
+                font-size: 17px;
+                letter-spacing: 6px;
+            }
+        }
+    }
+
+    &__text {
+        &--regular {
+            color: $color_grey2;
+            font-family: $font_robotoRe;
+            font-size: 14px;
+            letter-spacing: 0.35px;
+            line-height: 30px;
+        }
+        
+        &--bold {
+            color: #2f302f;
+            font-family: $font_robotoBo;
+            font-size: 16px;
+            line-height: 10px;
+            letter-spacing: 0.4px;
+        }
+    }
+}

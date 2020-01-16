@@ -1,0 +1,80 @@
+.portfolio {
+    background-color: #fafafa;
+
+    &__menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 0;
+        border-top: 1px solid $color_grey3;
+        border-bottom: 1px solid $color_grey3;
+        overflow: hidden;
+
+        &--link {
+            position: relative;
+            color: $color_grey2;
+            font-family: $font_robotoBo;
+            font-size: 14px;
+            line-height: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.05px;
+            margin: 0 20px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 100%;
+                left: -20px;
+                background-color: $color_grey;
+                transform: rotate(15deg);
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 100%;
+                right: -21px;
+                background-color: $color_grey;
+                transform: rotate(15deg);
+            }
+
+            &:first-child {
+                @media (min-width: 992px) { 
+                    &::before {
+                        display: none;
+                    }
+                }                
+            }
+
+            &:last-child {
+                @media (min-width: 992px) { 
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+
+            &:hover {
+                color: $color_black;
+            }
+        }
+    }
+
+    &__item {
+        position: relative;
+        margin-top: 35px;
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__load-more {
+        margin: 35px auto;
+    }
+}

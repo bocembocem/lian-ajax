@@ -1,0 +1,45 @@
+.profile {
+    margin-bottom: 40px;
+    
+    &__image {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: #eeeeee;
+        height: 440px;
+        overflow: hidden;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__text {
+        padding: 35px;
+        background-color: $color_white;
+    }
+
+    &__name {
+        width: 100%;
+        color: #041608;
+        font-family: $font_robotoLi;
+        font-size: 24px;
+        letter-spacing: 0.96px;
+        text-transform: uppercase;
+    }
+
+    &__position {
+        color: $color_grey2;
+        font-family: $font_robotoBo;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+    }
+
+    &__comment {
+        color: #9c9c9c;
+        font-family: $font_robotoRe;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

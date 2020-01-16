@@ -1,0 +1,39 @@
+.team {
+    background-color: #fafafa;
+
+    &__image {
+        text-align: center;
+        margin-bottom: 20px;
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    
+    &__story {
+        div {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__skills {
+        margin-top: 40px;
+    }
+
+    &__progress {
+        margin-top: 40px;
+    }
+
+    &__caption {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 70px;
+
+        div {
+            &:first-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

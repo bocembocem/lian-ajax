@@ -1,0 +1,14 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__link {
+        color: inherit;
+
+        &:hover {
+            color: $color_black;
+        }
+    }
+}
